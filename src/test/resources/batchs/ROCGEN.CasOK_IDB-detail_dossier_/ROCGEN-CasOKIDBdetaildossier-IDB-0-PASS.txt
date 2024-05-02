@@ -1,0 +1,294 @@
+Status: PASS
+Time Taken: 4106
+Size: 6116
+Timestamp: Tue Dec 27 15:09:27 CET 2022
+TestStep: IDB
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+Endpoint: https://fsiq-cvg.services-fm.net/wa-fsiq-cvg/services/WSRocGen?wsdl
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.2 (Java/14.0.2)
+Host : fsiq-cvg.services-fm.net
+Accept-Encoding : gzip,deflate
+Content-Length : 3733
+Content-Type : application/soap+xml;charset=UTF-8;action="urn:roc:idb:1"
+
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:oas="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:urn="urn:amc:ci" xmlns:urn1="urn:amc:roc">
+   <soap:Header>
+      <oas:Security/>
+      <urn:LPS>
+         <urn:Id>urn:cnda:1223457</urn:Id>
+         <urn:Nom>IDB Simulateur</urn:Nom>
+         <urn:Version>1.0</urn:Version>
+         <urn:Editeur>KEREVAL</urn:Editeur>
+         <urn:Instance>110e8400-e29b-11d4-a716-446634400000</urn:Instance>
+      </urn:LPS>
+      <urn:Message>
+         <urn:Id>110e8400-e29b-11d4-a716-210218024612</urn:Id>
+         <urn:Horodatage>2022-12-27T15:09:27.758+01:00</urn:Horodatage>
+         <urn:Adressage>urn:amc:R_BEY_STIS:SP:crc:HOSP:HospiAMC:IDB1:IDB</urn:Adressage>
+         <urn:Type>EDITEUR</urn:Type>
+      </urn:Message>
+   </soap:Header>
+   <soap:Body>
+      <urn1:DemandeIdb1 horodatage="2022-12-27T15:09:27.758+01:00" versionTable="1.0" Id="_00000000-0000-0000-00ed-210218024612" version="1">
+         <urn1:BeneficiaireDeSoins>
+            <urn1:InfoOdr>
+               <urn1:Nir>
+                  <urn1:Num>1901131777888</urn1:Num>
+                  <urn1:Cle>72</urn1:Cle>
+               </urn1:Nir>
+               <urn1:Nom>Laporte</urn1:Nom>
+               <urn1:Prenom>Nina</urn1:Prenom>
+               <urn1:CodeRegimeAmo>01</urn1:CodeRegimeAmo>
+               <urn1:CodeCaisseAmo>711</urn1:CodeCaisseAmo>
+               <urn1:CodeCentreAmo>0000</urn1:CodeCentreAmo>
+            </urn1:InfoOdr>
+            <urn1:InfoBs>
+               <urn1:Nir>
+                  <urn1:Num>1901131777888</urn1:Num>
+                  <urn1:Cle>72</urn1:Cle>
+               </urn1:Nir>
+               <urn1:DateNaiss>2011-11-11</urn1:DateNaiss>
+               <urn1:Rang>1</urn1:Rang>
+               <urn1:Nom>Laporte</urn1:Nom>
+               <urn1:Prenom>Nina</urn1:Prenom>
+            </urn1:InfoBs>
+            <urn1:NumAmc>311799000</urn1:NumAmc>
+            <urn1:NumAdh>RBS00001</urn1:NumAdh>
+            <urn1:NumDossier>123474</urn1:NumDossier>
+            <urn1:NumPatient>234583</urn1:NumPatient>
+            <urn1:ContactBsAmc>
+               <urn1:Email>contactBS</urn1:Email>
+               <urn1:Telephone>0634</urn1:Telephone>
+            </urn1:ContactBsAmc>
+         </urn1:BeneficiaireDeSoins>
+         <urn1:Demandeur>
+            <urn1:NumFact>010007987010000180</urn1:NumFact>
+            <urn1:Domaine>HOSP</urn1:Domaine>
+            <urn1:Nom>ETS PNL 01</urn1:Nom>
+            <urn1:ComplementEs>
+               <urn1:FinessGeo>010000180</urn1:FinessGeo>
+               <urn1:FinessJur>010007987</urn1:FinessJur>
+               <urn1:StatutJur>65</urn1:StatutJur>
+               <urn1:Categorie>131</urn1:Categorie>
+            </urn1:ComplementEs>
+            <urn1:ContactEsAmc>
+               <urn1:Nom>ContactES5AMC</urn1:Nom>
+               <urn1:Email>es@amc.com</urn1:Email>
+               <urn1:Telephone>0203044550</urn1:Telephone>
+            </urn1:ContactEsAmc>
+         </urn1:Demandeur>
+         <urn1:ContexteDemande>
+            <urn1:PresenceCv>O</urn1:PresenceCv>
+            <urn1:NatureAssurance>10</urn1:NatureAssurance>
+            <urn1:IndicateurMt>A</urn1:IndicateurMt>
+            <urn1:IndicateurParcoursSoins>O</urn1:IndicateurParcoursSoins>
+            <urn1:DetailEs>
+               <urn1:DateAdmission>2022-12-27</urn1:DateAdmission>
+               <urn1:ContexteEchange>1</urn1:ContexteEchange>
+               <urn1:IdPeriodeFact>3232324564222233441111</urn1:IdPeriodeFact>
+               <urn1:OccId>1</urn1:OccId>
+            </urn1:DetailEs>
+         </urn1:ContexteDemande>
+         <urn1:Prestation>
+            <urn1:DateDebut>2022-12-27</urn1:DateDebut>
+            <urn1:DateFin>2022-12-27</urn1:DateFin>
+            <urn1:NatureInterruptionSejour>S</urn1:NatureInterruptionSejour>
+         </urn1:Prestation>
+      </urn1:DemandeIdb1>
+   </soap:Body>
+</soap:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Keep-Alive : timeout=5, max=100
+Transfer-Encoding : chunked
+Strict-Transport-Security : max-age=31536000; includeSubDomains
+Connection : Keep-Alive
+#status# : HTTP/1.1 200 
+Date : Tue, 27 Dec 2022 14:09:31 GMT
+Content-Type : application/soap+xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+   <soap:Body>
+      <ReponseIdb1 Id="_a79dbdb2-7d8a-4a9b-9c13-3f025de3efdc" horodatage="2022-12-27T15:09:31.618+01:00" version="1" versionTable="1.0" xmlns:ns8="http://www.w3.org/2001/10/xml-exc-c14n#" xmlns:ns7="http://www.w3.org/2001/04/xmlenc#" xmlns:ns6="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ns5="http://www.w3.org/2000/09/xmldsig#" xmlns:ns4="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:ns3="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:ns2="urn:amc:ci" xmlns="urn:amc:roc">
+         <IdDemandeIdb>_00000000-0000-0000-00ed-210218024612</IdDemandeIdb>
+         <BeneficiaireDeSoins>
+            <InfoOdr>
+               <Nir>
+                  <Num>1901131777888</Num>
+                  <Cle>72</Cle>
+               </Nir>
+               <Nom>Laporte</Nom>
+               <Prenom>Nina</Prenom>
+               <CodeRegimeAmo>01</CodeRegimeAmo>
+               <CodeCaisseAmo>711</CodeCaisseAmo>
+               <CodeCentreAmo>0000</CodeCentreAmo>
+            </InfoOdr>
+            <InfoBs>
+               <Nir>
+                  <Num>1901131777888</Num>
+                  <Cle>72</Cle>
+               </Nir>
+               <DateNaiss>2011-11-11</DateNaiss>
+               <Rang>1</Rang>
+               <Nom>Laporte</Nom>
+               <Prenom>Nina</Prenom>
+            </InfoBs>
+            <NumAmc>311799000</NumAmc>
+            <NumAdh>RBS00001</NumAdh>
+            <NumDossier>123474</NumDossier>
+            <NumPatient>234583</NumPatient>
+            <InfoContrat>
+               <DateDebutCouverture>2022-12-27</DateDebutCouverture>
+            </InfoContrat>
+            <ContactBsAmc>
+               <Email>contactBS</Email>
+               <Telephone>0634</Telephone>
+            </ContactBsAmc>
+            <ContactAmcBs>
+               <Nom>ADREA Mutuelle BS</Nom>
+               <Email>adrea.bs@gmail.com</Email>
+               <Telephone>0125564587</Telephone>
+            </ContactAmcBs>
+         </BeneficiaireDeSoins>
+         <Demandeur>
+            <NumFact>010007987010000180</NumFact>
+            <Domaine>HOSP</Domaine>
+            <Nom>ETS PNL 01</Nom>
+            <ComplementEs>
+               <FinessGeo>010000180</FinessGeo>
+               <FinessJur>010007987</FinessJur>
+               <StatutJur>65</StatutJur>
+               <Categorie>131</Categorie>
+            </ComplementEs>
+            <ContactEsAmc>
+               <Nom>ContactES5AMC</Nom>
+               <Email>es@amc.com</Email>
+               <Telephone>0203044550</Telephone>
+            </ContactEsAmc>
+         </Demandeur>
+         <ContexteDemande>
+            <PresenceCv>O</PresenceCv>
+            <NatureAssurance>10</NatureAssurance>
+            <IndicateurMt>A</IndicateurMt>
+            <IndicateurParcoursSoins>O</IndicateurParcoursSoins>
+            <DetailEs>
+               <DateAdmission>2022-12-27</DateAdmission>
+               <ContexteEchange>1</ContexteEchange>
+               <IdPeriodeFact>3232324564222233441111</IdPeriodeFact>
+               <OccId>1</OccId>
+            </DetailEs>
+         </ContexteDemande>
+         <Prestation>
+            <DateDebut>2022-12-27</DateDebut>
+            <DateFin>2022-12-27</DateFin>
+            <NatureInterruptionSejour>S</NatureInterruptionSejour>
+            <Consignes>
+               <Domaine>
+                  <Code>HOSP</Code>
+                  <ConsigneSd>
+                     <Code>CLC</Code>
+                  </ConsigneSd>
+                  <ConsigneAd>
+                     <Code>CLC</Code>
+                  </ConsigneAd>
+               </Domaine>
+            </Consignes>
+         </Prestation>
+         <ContexteReponse>
+            <AbsenceRac>O</AbsenceRac>
+         </ContexteReponse>
+         <ContactAmcEs>
+            <Nom>ADREA Mutuelle ES</Nom>
+            <Telephone>0102884580</Telephone>
+         </ContactAmcEs>
+         <StructJuridContratTp>
+            <NatIdTiers>02</NatIdTiers>
+            <IdTiers>311799881</IdTiers>
+            <Nom>ADREA Juridique Hospi</Nom>
+         </StructJuridContratTp>
+         <ns5:Signature Id="e2f24732-1223-4a0c-b518-39ba22da8ca1">
+            <ns5:SignedInfo Id="e2f24732-1223-4a0c-b518-39ba22da8ca6">
+               <ns5:CanonicalizationMethod Algorithm="http://www.corp.gov/premit/vasto">illi
+                
+                arce</ns5:CanonicalizationMethod>
+               <ns5:SignatureMethod Algorithm="http://www.your.gov/rapidum/bella">
+                  tempestatesque
+                  <ns5:HMACOutputLength>100</ns5:HMACOutputLength>
+                  ac
+               </ns5:SignatureMethod>
+               <ns5:Reference Id="e2f24732-1223-4a0c-b518-39ba22da8ca7" URI="http://www.test.com/tenens/et" Type="http://www.company.com/aeolus/premere">
+                  <ns5:Transforms>
+                     <ns5:Transform Algorithm="http://www.company.org/soror/rapidum">
+                        imperio
+                        <ns5:XPath>transfixo pectore flammas</ns5:XPath>
+                        insuper
+                     </ns5:Transform>
+                  </ns5:Transforms>
+                  <ns5:DigestMethod Algorithm="http://www.any.org/cum/rates">arce
+                    
+                    iovis</ns5:DigestMethod>
+                  <ns5:DigestValue>cid843873416</ns5:DigestValue>
+               </ns5:Reference>
+            </ns5:SignedInfo>
+            <ns5:SignatureValue Id="e2f24732-1223-4a0c-b518-39ba22da8ca8">cid774494937</ns5:SignatureValue>
+            <ns5:KeyInfo Id="e2f24732-1223-4a0c-b518-39ba22da8c44">
+               ni
+               <ns5:PGPData>
+                  <ns5:PGPKeyID>cid1029187902059</ns5:PGPKeyID>
+                  <ns5:PGPKeyPacket>cid486796507</ns5:PGPKeyPacket>
+               </ns5:PGPData>
+               <ns5:SPKIData>
+                  <ns5:SPKISexp>cid264521556</ns5:SPKISexp>
+               </ns5:SPKIData>
+               <ns5:KeyValue>
+                  rapidum
+                  <ns5:DSAKeyValue>
+                     <ns5:P>cid808373262</ns5:P>
+                     <ns5:Q>cid219920338</ns5:Q>
+                     <ns5:G>cid766308256</ns5:G>
+                     <ns5:Y>cid653347680</ns5:Y>
+                     <ns5:J>cid923953311</ns5:J>
+                     <ns5:Seed>cid137731969</ns5:Seed>
+                     <ns5:PgenCounter>cid940921937</ns5:PgenCounter>
+                  </ns5:DSAKeyValue>
+                  secum
+               </ns5:KeyValue>
+               <ns5:KeyName>animos et</ns5:KeyName>
+               <ns5:RetrievalMethod URI="http://www.sample.com/flammato/secum" Type="http://www.test.com/aeoliam/terras">
+                  <ns5:Transforms>
+                     <ns5:Transform Algorithm="http://www.corp.org/profundum/magno">
+                        premit
+                        <ns5:XPath>luctantis ventos</ns5:XPath>
+                        dare
+                     </ns5:Transform>
+                  </ns5:Transforms>
+               </ns5:RetrievalMethod>
+               <ns5:MgmtData>terras caelumque</ns5:MgmtData>
+               <ns5:X509Data>
+                  <ns5:X509Certificate>cid405121581</ns5:X509Certificate>
+                  <ns5:X509CRL>cid1437335084058</ns5:X509CRL>
+                  <ns5:X509SubjectName>altos imposuit</ns5:X509SubjectName>
+                  <ns5:X509SKI>cid602191577</ns5:X509SKI>
+                  <ns5:X509IssuerSerial>
+                     <ns5:X509IssuerName>sonoras imperio premit</ns5:X509IssuerName>
+                     <ns5:X509SerialNumber>100</ns5:X509SerialNumber>
+                  </ns5:X509IssuerSerial>
+               </ns5:X509Data>
+               annos
+            </ns5:KeyInfo>
+            <ns5:Object Id="e2f24732-1223-4a0c-b518-39ba22da8c29" MimeType="iovisque et soror" Encoding="http://www.test.com/quisquam/montis">ipsa
+            
+            profundum</ns5:Object>
+         </ns5:Signature>
+      </ReponseIdb1>
+   </soap:Body>
+</soap:Envelope>

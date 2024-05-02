@@ -1,0 +1,51 @@
+Status: FAIL
+Time Taken: 467
+Size: 9
+Timestamp: Tue Dec 27 15:09:35 CET 2022
+TestStep: REST ConsultationDossiers
+
+----------------- Messages ------------------------------
+[Match content of [nirOdr]] Comparison failed. Path: [$['resultats'][0]['nirOdr']]; Expected value: [190113177788872]; Actual value: [].
+[Match content of [nirBeneficiaire]] Comparison failed. Path: [$['resultats'][0]['nirBeneficiaire']]; Expected value: [190113177788872]; Actual value: [].
+[Match content of [nomBeneficiaire]] Comparison failed. Path: [$['resultats'][0]['nomBeneficiaire']]; Expected value: [Laporte]; Actual value: [].
+[Match content of [prenomBeneficiaire]] Comparison failed. Path: [$['resultats'][0]['prenomBeneficiaire']]; Expected value: [Nina]; Actual value: [].
+[Match content of [dateNaissance]] Comparison failed. Path: [$['resultats'][0]['dateNaissance']]; Expected value: [2011-11-11]; Actual value: [].
+[Match content of [rangNaissance]] Comparison failed. Path: [$['resultats'][0]['rangNaissance']]; Expected value: [1]; Actual value: [].
+[Match content of [numAmc]] Comparison failed. Path: [$['resultats'][0]['numAmc']]; Expected value: [0311799000]; Actual value: [].
+[Match content of [typeSEL]] Comparison failed. Path: [$['resultats'][0]['typeSEL']]; Expected value: [DROITS]; Actual value: [].
+[Match content of [idPeriodeFact]] Comparison failed. Path: [$['resultats'][0]['idPeriodeFact']]; Expected value: [3232324564222233441111]; Actual value: [].
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://console-sel-c7.cetip.xxxx.cloud
+Encoding: UTF-8
+Method: GET
+StatusCode: 415
+URL: https://console-sel-c7.cetip.xxxx.cloud/wa-console/services/consoleServices/consultationDossiers
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.2 (Java/14.0.2)]
+Host: [console-sel-c7.cetip.xxxx.cloud]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [0]
+
+GET https://console-sel-c7.cetip.xxxx.cloud/wa-console/services/consoleServices/consultationDossiers HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Length: 0
+Host: console-sel-c7.cetip.xxxx.cloud
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.2 (Java/14.0.2)
+
+
+---------------- Response --------------------------
+Keep-Alive: [timeout=5, max=100]
+Strict-Transport-Security: [max-age=31536000; includeSubDomains]
+Accept: [application/json]
+Connection: [Keep-Alive]
+Set-Cookie: [BIGipServerPOOL-CONSOLE-SEL-C7.CETIP.xxxx.CLOUD-HTTP=!9SXFuRzJxh0m3IbwZS0XyzTcZwh3iffqHgxmHv+kBRoX75zh6d5hakfQKVpRzahnGePKQYJV/O7RxNHwxHQyJTJ0BKA=; path=/; Httponly; Secure]
+#status#: [HTTP/1.1 415 ]
+Content-Length: [9]
+Date: [Tue, 27 Dec 2022 14:09:36 GMT]
+
+415 ERROR

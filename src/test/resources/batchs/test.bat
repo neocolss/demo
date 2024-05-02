@@ -1,0 +1,1 @@
+cmd://\\vignemale\Keepass$\KeePass\putty.exe -ssh tnr1-accr@ret1crtcvgctp01.production.net -pw Atereboa5

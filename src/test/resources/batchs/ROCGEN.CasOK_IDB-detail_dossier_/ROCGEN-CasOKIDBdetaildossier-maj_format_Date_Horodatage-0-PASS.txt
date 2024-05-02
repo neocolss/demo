@@ -1,0 +1,8 @@
+Status: PASS
+Time Taken: 449
+Size: 0
+Timestamp: Tue Dec 27 15:09:27 CET 2022
+TestStep: maj format Date Horodatage
+
+----------------- Messages ------------------------------
+Script-result: 2022-12-27T15:09:27.758+01:00

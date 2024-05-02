@@ -1,0 +1,12 @@
+Status: FAIL
+Time Taken: 193
+Size: 0
+Timestamp: Tue Dec 27 15:09:35 CET 2022
+TestStep: Verifier detail ConsoleSel
+
+----------------- Messages ------------------------------
+org.postgresql.util.PSQLException: Le type d'authentification 10 n'est pas supporté. Vérifiez que vous avez configuré le fichier pg_hba.conf pour inclure l'adresse IP du client ou le sous-réseau et qu'il utilise un schéma d'authentification supporté par le pilote.
+[Check for existence of [DETAIL.DATE_ARCHIVE]] null/empty response body
+[Match content of [DETAIL.NORME]] null/empty response body
+[Match content of [DETAIL.VERSION_NORME]] null/empty response body
+[Match content of [DETAIL.ID]] null/empty response body

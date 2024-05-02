@@ -1,0 +1,63 @@
+Status: FAIL
+Time Taken: 56
+Size: 9
+Timestamp: Tue Dec 27 15:09:36 CET 2022
+TestStep: REST DetailDossier
+
+----------------- Messages ------------------------------
+[Match content of [informationsOdr]] Comparison failed. Path: [$['resultats'][0]['beneficiaire']['informationsOdr']]; Expected value: [{"nirOdr":"1901131777888","cleOdr":"72","nomOdr":"Laporte","prenomOdr":"Nina"}]; Actual value: [].
+[Match content of [informationsBs]] Comparison failed. Path: [$['resultats'][0]['beneficiaire']['informationsBs']]; Expected value: [{"nirBeneficiaire":"1901131777888","cleBeneficiaire":"72","nomBeneficiaire":"Laporte","prenomBeneficiaire":"Nina","dateNaissance":"2011-11-11","rangNaissance":1}]; Actual value: [].
+[Match content of [codeRegimeAmo]] Comparison failed. Path: [$['resultats'][0]['beneficiaire']['codeRegimeAmo']]; Expected value: [01]; Actual value: [].
+[Match content of [codeCentreAmo]] Comparison failed. Path: [$['resultats'][0]['beneficiaire']['codeCentreAmo']]; Expected value: [0000]; Actual value: [].
+[Match content of [codeCaisseAmo]] Comparison failed. Path: [$['resultats'][0]['beneficiaire']['codeCaisseAmo']]; Expected value: [711]; Actual value: [].
+[Match content of [numAdh]] Comparison failed. Path: [$['resultats'][0]['beneficiaire']['numAdh']]; Expected value: [RBS00001]; Actual value: [].
+[Match content of [numPatient]] Comparison failed. Path: [$['resultats'][0]['beneficiaire']['numPatient']]; Expected value: [234583]; Actual value: [].
+[Match content of [numDossier]] Comparison failed. Path: [$['resultats'][0]['beneficiaire']['numDossier']]; Expected value: [123474]; Actual value: [].
+[Match content of [contact]] Comparison failed. Path: [$['resultats'][0]['demandeur']['contact']]; Expected value: [{"nom":"ContactES5AMC","email":"es@amc.com","tel":"0203044550"}]; Actual value: [].
+[Match content of [contact]] Comparison failed. Path: [$['resultats'][0]['beneficiaire']['contact']]; Expected value: [{"email":"contactBS","tel":"0634"}]; Actual value: [].
+[Match content of [nom]] Comparison failed. Path: [$['resultats'][0]['demandeur']['nom']]; Expected value: [ETS PNL 01]; Actual value: [].
+[Match content of [numFinessGeo]] Comparison failed. Path: [$['resultats'][0]['demandeur']['numFinessGeo']]; Expected value: [010000180]; Actual value: [].
+[Match content of [numFinessJur]] Comparison failed. Path: [$['resultats'][0]['demandeur']['numFinessJur']]; Expected value: [010007987]; Actual value: [].
+[Match content of [statutJur]] Comparison failed. Path: [$['resultats'][0]['demandeur']['statutJur']]; Expected value: [65]; Actual value: [].
+[Match content of [numFact]] Comparison failed. Path: [$['resultats'][0]['demandeur']['numFact']]; Expected value: [010007987010000180]; Actual value: [].
+[Match content of [domaine]] Comparison failed. Path: [$['resultats'][0]['demandeur']['domaine']]; Expected value: [HOSP]; Actual value: [].
+[Match content of [categorie]] Comparison failed. Path: [$['resultats'][0]['demandeur']['categorie']]; Expected value: [131]; Actual value: [].
+[Match content of [contact]] Comparison failed. Path: [$['resultats'][0]['demandeur']['contact']]; Expected value: [{"nom":"ContactES5AMC","email":"es@amc.com","tel":"0203044550"}]; Actual value: [].
+[Match content of [numAmc]] Comparison failed. Path: [$['resultats'][0]['amc']['numAmc']]; Expected value: [311799000]; Actual value: [].
+[Match content of [contactBs]] Comparison failed. Path: [$['resultats'][0]['amc']['contactBs']]; Expected value: [{"nom":"ADREA Mutuelle BS","email":"adrea.bs@gmail.com","tel":"0125564587"}]; Actual value: [].
+[Match content of [dateDebutCouverture]] Comparison failed. Path: [$['resultats'][0]['contrat']['dateDebutCouverture']]; Expected value: [2022-12-27]; Actual value: [].
+
+----------------- Properties ------------------------------
+HTTP Version: HTTP/1.1
+Endpoint: https://console-sel-c7.cetip.xxxx.cloud
+Encoding: UTF-8
+Method: GET
+StatusCode: 415
+URL: https://console-sel-c7.cetip.xxxx.cloud/wa-console/services/consoleServices/detailDossier
+
+---------------- Request ---------------------------
+Connection: [Keep-Alive]
+User-Agent: [Apache-HttpClient/4.5.2 (Java/14.0.2)]
+Host: [console-sel-c7.cetip.xxxx.cloud]
+Accept-Encoding: [gzip,deflate]
+Content-Length: [0]
+
+GET https://console-sel-c7.cetip.xxxx.cloud/wa-console/services/consoleServices/detailDossier HTTP/1.1
+Accept-Encoding: gzip,deflate
+Content-Length: 0
+Host: console-sel-c7.cetip.xxxx.cloud
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.2 (Java/14.0.2)
+
+
+---------------- Response --------------------------
+Keep-Alive: [timeout=5, max=100]
+Strict-Transport-Security: [max-age=31536000; includeSubDomains]
+Accept: [application/json]
+Connection: [Keep-Alive]
+Set-Cookie: [BIGipServerPOOL-CONSOLE-SEL-C7.CETIP.xxxx.CLOUD-HTTP=!EJaT2HMoPaUn5abwZS0XyzTcZwh3ibXYrCGEUw8EjOdWYDfEM6Vi9LDR7lX+qyyZ7AD4TePo67zwj7Vjix2Q0mj5Qh4=; path=/; Httponly; Secure]
+#status#: [HTTP/1.1 415 ]
+Content-Length: [9]
+Date: [Tue, 27 Dec 2022 14:09:36 GMT]
+
+415 ERROR

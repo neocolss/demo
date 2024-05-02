@@ -1,0 +1,108 @@
+No_OCT:00000000093009
+code_postal:75000
+commune:PARIS
+mode_virement:PS
+code_comptable:99999
+numero_voie:1
+telephone:1111111111
+nom_rue:TEST
+nom:RESODOM
+nom_long:RESODOM
+type_voie:Bis
+nom_voie:Allée(s)
+norme_echange:DRE 2002
+date_effet:15/06/2022
+code_type_OCT:Electronique
+validite:Valide
+cedex:
+lieu_dit:
+bureau:
+point_remise:
+fax:1111111111
+email:t@t.fr
+cb_date_effet:15/06/2022
+cb_bban:30056001480000000000190
+cb_code_guichet:00148  
+cb_no_compte:00000000001  
+cb_cle_iban:76
+cb_code_pays_iso2:FR
+cb_no_oct:00000000093009
+cb_intitule_compte:TEST
+cb_bic:CCFRFRPP
+cb_nom_banque:TEST
+cb_code_banque:30056  
+info numero oct cree le etat:{log_cree_le=14/06/2007, log_numero_oct=00000000093009, log_etat=V}
+ligne 1:{code_action=CODBIC, donnees=CCFRFRPP, date_effet=11/12/2013, date_saisie=11/12/2013 16:29:42, auteur=FIXXPJF}
+ligne 2:{code_action=IBANBA, donnees=FR7630056001480000000000190, date_effet=11/12/2013, date_saisie=11/12/2013 16:29:42, auteur=FIXXPJF}
+No_OCT:00000000093009
+code_postal:75000
+commune:PARIS
+mode_virement:PS
+code_comptable:99999
+numero_voie:1
+telephone:1111111111
+nom_rue:TEST
+nom:RESODOM
+nom_long:RESODOM
+type_voie:Bis
+nom_voie:Allée(s)
+norme_echange:DRE 2002
+date_effet:28/06/2022
+code_type_OCT:Electronique
+validite:Valide
+cedex:
+lieu_dit:
+bureau:
+point_remise:
+fax:1111111111
+email:t@t.fr
+cb_date_effet:28/06/2022
+cb_bban:30056001480000000000190
+cb_code_guichet:00148  
+cb_no_compte:00000000001  
+cb_cle_iban:76
+cb_code_pays_iso2:FR
+cb_no_oct:00000000093009
+cb_intitule_compte:TEST
+cb_bic:CCFRFRPP
+cb_nom_banque:TEST
+cb_code_banque:30056  
+info numero oct cree le etat:{log_cree_le=14/06/2007, log_numero_oct=00000000093009, log_etat=V}
+ligne 1:{code_action=CODBIC, donnees=CCFRFRPP, date_effet=11/12/2013, date_saisie=11/12/2013 16:29:42, auteur=FIXXPJF}
+ligne 2:{code_action=IBANBA, donnees=FR7630056001480000000000190, date_effet=11/12/2013, date_saisie=11/12/2013 16:29:42, auteur=FIXXPJF}
+No_OCT:00000000093009
+code_postal:75000
+commune:PARIS
+mode_virement:PS
+code_comptable:99999
+numero_voie:1
+telephone:1111111111
+nom_rue:TEST
+nom:RESODOM
+nom_long:RESODOM
+type_voie:Bis
+nom_voie:Allée(s)
+norme_echange:DRE 2002
+date_effet:04/07/2022
+code_type_OCT:Electronique
+validite:Valide
+cedex:
+lieu_dit:
+bureau:
+point_remise:
+fax:1111111111
+email:t@t.fr
+cb_date_effet:04/07/2022
+cb_bban:30056001480000000000190
+cb_code_guichet:00148  
+cb_no_compte:00000000001  
+cb_cle_iban:76
+cb_code_pays_iso2:FR
+cb_no_oct:00000000093009
+cb_intitule_compte:TEST
+cb_bic:CCFRFRPP
+cb_nom_banque:TEST
+cb_code_banque:30056  
+info numero oct cree le etat:{log_cree_le=14/06/2007, log_numero_oct=00000000093009, log_etat=V}
+ligne 1:{code_action=CODBIC, donnees=CCFRFRPP, date_effet=11/12/2013, date_saisie=11/12/2013 16:29:42, auteur=FIXXPJF}
+ligne 2:{code_action=IBANBA, donnees=FR7630056001480000000000190, date_effet=11/12/2013, date_saisie=11/12/2013 16:29:42, auteur=FIXXPJF}

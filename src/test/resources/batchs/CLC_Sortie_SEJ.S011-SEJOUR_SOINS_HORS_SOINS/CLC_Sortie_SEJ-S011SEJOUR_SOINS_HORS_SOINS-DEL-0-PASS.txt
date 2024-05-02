@@ -1,0 +1,116 @@
+Status: PASS
+Time Taken: 611
+Size: 1642
+Timestamp: Tue Dec 27 15:04:46 CET 2022
+TestStep: DEL
+
+----------------- Messages ------------------------------
+
+----------------- Properties ------------------------------
+Endpoint: https://fsiq-cvg.services-fm.net/wa-fsiq-cvg/services/WSAlmerysFactureHospi1_2
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : "annuler"
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.5.2 (Java/14.0.2)
+Host : fsiq-cvg.services-fm.net
+Accept-Encoding : gzip,deflate
+Content-Length : 2183
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:req="http://ws.almerys.com/facturation/modele/commun/requete" xmlns:com="http://ws.almerys.com/facturation/modele/commun">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <req:annuler>
+         <req:entete>
+            <req:environnement>xxxx</req:environnement>
+            <req:emetteur>ALMERYS</req:emetteur>
+            <req:omc>Adrea_Almerys</req:omc>
+            <req:version>1.2.0.0.0</req:version>
+            <req:numeroTransaction>1532667947823-1679238649</req:numeroTransaction>
+            <req:debutMesure>2022-01-12T00:00:00.000+02:00</req:debutMesure>
+            <req:ce>
+               <req:adeliFiness>010007987</req:adeliFiness>
+               <req:finessGeo>010000180</req:finessGeo>
+               <req:numFacturation>010007987010000180</req:numFacturation>
+               <req:raisonSociale>ETS PUBLIC 01</req:raisonSociale>
+            </req:ce>
+            <req:beneficiaire>
+               <com:qualite>A</com:qualite>
+               <com:NNI>1901131777888</com:NNI>
+               <com:cleNNI>72</com:cleNNI>
+               <com:nom>Laporte</com:nom>
+               <com:prenom>Nina</com:prenom>
+               <com:dateNaissance>20111111</com:dateNaissance>
+               <com:rangNaissance>1</com:rangNaissance>
+               <com:codeContrat>RBS00001</com:codeContrat>
+            </req:beneficiaire>
+            <req:informationsRo>
+               <com:codeGrandRegime>01</com:codeGrandRegime>
+            </req:informationsRo>
+            <req:origineDemande>20</req:origineDemande>
+         </req:entete>
+         <req:contenu xsi:type="ns16:AnnulationDetail" xmlns:ns16="http://ws.almerys.com/facturation/modele/commun/requete" xmlns:ns464="http://ws.almerys.com/facturation/modele/hospit/requete" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <req:numFacAlm>10</req:numFacAlm>
+            <req:occFacAlm>1</req:occFacAlm>
+            <req:numFacTiers>010007987</req:numFacTiers>
+            <ns16:dateCreationPec>20221227</ns16:dateCreationPec>
+            <ns16:numPecOmc>P202212270000021</ns16:numPecOmc>
+            <ns16:natureService>DEL</ns16:natureService>
+            <ns16:domaineROC>SEJ</ns16:domaineROC>
+            <req:code>WS</req:code>
+         </req:contenu>
+      </req:annuler>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Keep-Alive : timeout=5, max=98
+Strict-Transport-Security : max-age=31536000; includeSubDomains
+Connection : Keep-Alive
+Vary : Accept-Encoding
+#status# : HTTP/1.1 200 
+Date : Tue, 27 Dec 2022 14:04:47 GMT
+Content-Type : text/xml;charset=UTF-8
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+   <soap:Body>
+      <ns4:annuler xmlns:ns5="http://ws.almerys.com/facturation/modele/hospit/reponse" xmlns:ns4="http://ws.almerys.com/facturation/modele/commun/reponse" xmlns:ns3="http://ws.almerys.com/facturation/modele/hospit/requete" xmlns:ns2="http://ws.almerys.com/facturation/modele/commun" xmlns="http://ws.almerys.com/facturation/modele/commun/requete">
+         <ns4:entete>
+            <ns4:environnement>xxxx</ns4:environnement>
+            <ns4:emetteur>ALMERYS</ns4:emetteur>
+            <ns4:version>1.2.0.0.0</ns4:version>
+            <ns4:numeroTransaction>1532667947823-1679238649</ns4:numeroTransaction>
+            <ns4:debutMesure>2022-12-27T15:04:46.588+00:01</ns4:debutMesure>
+            <ns4:finMesure>2022-12-27T15:04:47.083+00:01</ns4:finMesure>
+            <ns4:ce>
+               <ns4:adeliFiness>010007987</ns4:adeliFiness>
+               <ns4:finessGeo>010000180</ns4:finessGeo>
+               <ns4:numFacturation>010007987010000180</ns4:numFacturation>
+               <ns4:raisonSociale>ETS PUBLIC 01</ns4:raisonSociale>
+            </ns4:ce>
+            <ns4:beneficiaire>
+               <ns2:qualite>A</ns2:qualite>
+               <ns2:NNI>1901131777888</ns2:NNI>
+               <ns2:cleNNI>72</ns2:cleNNI>
+               <ns2:nom>Laporte</ns2:nom>
+               <ns2:prenom>Nina</ns2:prenom>
+               <ns2:dateNaissance>20111111</ns2:dateNaissance>
+               <ns2:rangNaissance>1</ns2:rangNaissance>
+               <ns2:codeContrat>RBS00001</ns2:codeContrat>
+            </ns4:beneficiaire>
+            <ns4:informationsRo>
+               <ns2:codeGrandRegime>01</ns2:codeGrandRegime>
+            </ns4:informationsRo>
+         </ns4:entete>
+         <ns4:contenu xsi:type="ns4:AnnulationDetail" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <ns4:numFacAlm>10</ns4:numFacAlm>
+            <ns4:occFacAlm>1</ns4:occFacAlm>
+            <ns4:contactOMC/>
+         </ns4:contenu>
+      </ns4:annuler>
+   </soap:Body>
+</soap:Envelope>

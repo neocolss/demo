@@ -1,0 +1,28 @@
+Status: FAIL
+Time Taken: 399
+Size: 0
+Timestamp: Tue Dec 27 15:09:35 CET 2022
+TestStep: Verifier dossier ConsoleSel
+
+----------------- Messages ------------------------------
+org.postgresql.util.PSQLException: Le type d'authentification 10 n'est pas supporté. Vérifiez que vous avez configuré le fichier pg_hba.conf pour inclure l'adresse IP du client ou le sous-réseau et qu'il utilise un schéma d'authentification supporté par le pilote.
+[Check for existence of [DOSSIER.ID]] null/empty response body
+[Match content of [DOSSIER.NUM_AMC]] null/empty response body
+[Match content of [DOSSIER.NUM_ADH]] null/empty response body
+[Match content of [DOSSIER.RANG_NAISSANCE]] null/empty response body
+[Match content of [DOSSIER.NOM_PS_ETS]] null/empty response body
+[Match content of [DOSSIER.TYPE]] null/empty response body
+[Check for existence of [DOSSIER.DATE_CREATION_AUDIT]] null/empty response body
+[Check for existence of [DOSSIER.USER_CREATION_AUDIT]] null/empty response body
+[Check for existence of [DOSSIER.DATE_MODIFICATION_AUDIT]] null/empty response body
+[Check for existence of [DOSSIER.DATE_RECEPTION]] null/empty response body
+[Check for existence of [DOSSIER.DATE_EMISSION]] null/empty response body
+[Match content of [DOSSIER.DATE_NAISSANCE]] null/empty response body
+[Match content of [DOSSIER.DOMAINE]] null/empty response body
+[Match content of [DOSSIER.CONTEXTE]] null/empty response body
+[Match content of [DOSSIER.NUM_PS]] null/empty response body
+[Check for existence of [DOSSIER.DATE_ARCHIVE]] null/empty response body
+[Match content of [DOSSIER.ID_PERIODE_FACT]] null/empty response body
+[Match content of [DOSSIER.OCC_ID]] null/empty response body
+[Match content of [DOSSIER.NUM_FINESS]] null/empty response body
+[Match content of [DOSSIER.NUM_PS]] null/empty response body
